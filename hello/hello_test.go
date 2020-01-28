@@ -22,7 +22,7 @@ func TestHello(t *testing.T) {
 
 	t.Run("Hello Gorld when empty", func(t *testing.T) {
 		got := hello("")
-		want := "Hello fGorld"
+		want := "Hello Gorld"
 		assertCorrectMessage(t, got, want)
 	})
 
